@@ -1,4 +1,4 @@
-# WinRAT Server
+# WinRAT Client
 
 ## Setup Instructions
 
