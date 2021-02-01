@@ -1,5 +1,5 @@
 # WinRAT
-A Remote Access Toolkit for managing multiple windows nodes across a network
+A Remote Access Toolkit Suite for managing multiple windows nodes across a network
 
 ## Features
 
