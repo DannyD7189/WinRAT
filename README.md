@@ -18,3 +18,8 @@ A Remote Access Toolkit for managing multiple windows nodes across a network
 * Scheduling of Command Execution
 
 * More robust connection methods
+
+## Current Issues
+
+* Reliability Issues
+* Image Byte Array Decoder Performance
