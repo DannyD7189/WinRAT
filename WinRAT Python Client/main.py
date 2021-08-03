@@ -11,12 +11,12 @@ def send(message):
 
 
 def listen():
-    port = 6789
+    port = 60789
     serversock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
     serversock.bind((socket.gethostbyname(socket.gethostname()), port))
 
-    data, addr = serversock.recvfrom(65535)
+    data, addr = serversock.recvfrom(60789)
     print("Server > " + data.decode("utf-8"))
 
 
