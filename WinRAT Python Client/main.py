@@ -14,7 +14,7 @@ def listen():
     port = 60789
     serversock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-    serversock.bind((socket.gethostbyname(socket.gethostname()), port))
+    serversock.bind(('', port))
 
     data, addr = serversock.recvfrom(60789)
     print("Server > " + data.decode("utf-8"))
